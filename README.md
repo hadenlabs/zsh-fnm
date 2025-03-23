@@ -18,15 +18,6 @@
 
 zsh-fnm for project
 
-### Replace name project to New Project
-
-```bash
-  agr 'zsh-fnm' 'new-project'
-  agr 'fnm' 'name_template'
-  agr 'FNM' 'NAME_TEMPLATE'
-  agr 'Fnm' 'NameTemplate'
-```
-
 ## Requirements
 
 This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
@@ -101,8 +92,10 @@ to your `.zshrc` where you're adding your other plugins.
 
 # How to use this project
 
+## Replace name project to New Project
+
 ```bash
-task setup
+agr 'base-template' 'new-project'
 ```
 
 ## Examples
@@ -114,7 +107,13 @@ task setup
 <!-- Include: ./../disclaimer.md -->
 <!-- Include: ac:toc -->
 
-### Common
+## Common
+
+### Install Dependencies
+
+```bash
+task setup
+```
 
  <!-- Space: Projects -->
 <!-- Parent: Fnm -->
@@ -152,7 +151,7 @@ Using the given version number of `MAJOR.MINOR.PATCH`, we apply the following co
 
 ## Copyright
 
-Copyright © 2018-2024 [Hadenlabs](https://hadenlabs.com)
+Copyright © 2018-2025 [Hadenlabs](https://hadenlabs.com)
 
 ## Trademarks
 
