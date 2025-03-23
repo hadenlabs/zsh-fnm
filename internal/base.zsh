@@ -9,7 +9,11 @@ function fnm::internal::fnm::install {
 }
 
 function fnm::internal::fnm::load {
-  true
+  if [ -d "${FNM_PATH}" ]; then
+    export PATH="${FNM_PATH}:${PATH}"
+    eval "$(fnm env)"
+    eval "$(fnm env --use-on-cd --shell zsh)"
+  fi
 }
 
 function fnm::internal::packages::install {
