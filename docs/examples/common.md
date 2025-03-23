@@ -1,8 +1,14 @@
 <!-- Space: Projects -->
-<!-- Parent: ZshPluginTemplate -->
-<!-- Title: Examples ZshPluginTemplate -->
+<!-- Parent: Fnm -->
+<!-- Title: Examples Fnm -->
 <!-- Label: Examples -->
 <!-- Include: ./../disclaimer.md -->
 <!-- Include: ac:toc -->
 
-### Common
+## Common
+
+### Install Dependencies
+
+```bash
+task setup
+```

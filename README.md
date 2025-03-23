@@ -12,26 +12,26 @@
 
   -->
 
-[![Latest Release](https://img.shields.io/github/release/hadenlabs/zsh-plugin-template)](https://github.com/hadenlabs/zsh-plugin-template/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/zsh-plugin-template/lint-code)](https://github.com/hadenlabs/zsh-plugin-template/actions?workflow=lint-code) [![CI](https://img.shields.io/github/workflow/status/hadenlabs/zsh-plugin-template/ci)](https://github.com/hadenlabs/zsh-plugin-template/actions?workflow=ci) [![Test](https://img.shields.io/github/workflow/status/hadenlabs/zsh-plugin-template/test)](https://github.com/hadenlabs/zsh-plugin-template/actions?workflow=test) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.0.0-orange)](https://keepachangelog.com)
+[![Latest Release](https://img.shields.io/github/release/hadenlabs/zsh-fnm)](https://github.com/hadenlabs/zsh-fnm/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/zsh-fnm/lint-code)](https://github.com/hadenlabs/zsh-fnm/actions?workflow=lint-code) [![CI](https://img.shields.io/github/workflow/status/hadenlabs/zsh-fnm/ci)](https://github.com/hadenlabs/zsh-fnm/actions?workflow=ci) [![Test](https://img.shields.io/github/workflow/status/hadenlabs/zsh-fnm/test)](https://github.com/hadenlabs/zsh-fnm/actions?workflow=test) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.0.0-orange)](https://keepachangelog.com)
 
-# zsh-plugin-template
+# zsh-fnm
 
-zsh-plugin-template for project
+zsh-fnm for project
 
 ### Replace name project to New Project
 
 ```bash
-  agr 'zsh-plugin-template' 'new-project'
-  agr 'plugin-template' 'name_template'
-  agr 'PLUGIN_TEMPLATE' 'NAME_TEMPLATE'
-  agr 'ZshPluginTemplate' 'NameTemplate'
+  agr 'zsh-fnm' 'new-project'
+  agr 'fnm' 'name_template'
+  agr 'FNM' 'NAME_TEMPLATE'
+  agr 'Fnm' 'NameTemplate'
 ```
 
 ## Requirements
 
 This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
 
-- [zsh-plugin-name](https://github.com/hadenlabs/zsh-plugin-template)
+- [zsh-plugin-name](https://github.com/hadenlabs/zsh-fnm)
 - [gomplate](https://github.com/hairyhenderson/gomplate)
 - [python](https://www.python.org)
 - [taskfile](https://github.com/go-task/task)
@@ -39,9 +39,9 @@ This is a list of plugins that need to be installed previously to enjoy all the 
 ## Installation
 
 <!-- Space: Projects -->
-<!-- Parent: ZshPluginTemplate -->
-<!-- Title: Installation Oh-My-Zsh ZshPluginTemplate -->
-<!-- Label: ZshPluginTemplate -->
+<!-- Parent: Fnm -->
+<!-- Title: Installation Oh-My-Zsh Fnm -->
+<!-- Label: Fnm -->
 <!-- Label: Project -->
 <!-- Label: Installation -->
 <!-- Label: Oh-My-Zsh -->
@@ -53,13 +53,13 @@ This is a list of plugins that need to be installed previously to enjoy all the 
 If you're using [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh), install this plugin by doing the following:
 
 1.  Go to your oh-my-zsh custom plugins directory -`cd ~/.oh-my-zsh/custom/plugins`
-2.  Clone the plugin `bash git clone https://github.com/hadenlabs/zsh-plugin-template`bash
-3.  Edit your `.zshrc` and add `plugins=( ... zsh-plugin-template )` to your list of plugins
+2.  Clone the plugin `bash git clone https://github.com/hadenlabs/zsh-fnm`bash
+3.  Edit your `.zshrc` and add `plugins=( ... zsh-fnm )` to your list of plugins
 4.  Open a new terminal and enjoy!
     <!-- Space: Projects -->
-    <!-- Parent: ZshPluginTemplate -->
-    <!-- Title: Installation Antigen ZshPluginTemplate -->
-    <!-- Label: ZshPluginTemplate -->
+    <!-- Parent: Fnm -->
+    <!-- Title: Installation Antigen Fnm -->
+    <!-- Label: Fnm -->
     <!-- Label: Project -->
     <!-- Label: Installation -->
     <!-- Label: Antigen -->
@@ -70,13 +70,13 @@ If you're using [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh), install this pl
 
 If you're using [Antigen](https://github.com/zsh-users/antigen), install this plugin by doing the following:
 
-1.  Add `antigen bundle hadenlabs/zsh-plugin-template` to your `.zshrc` where you're adding your other plugins.
-2.  Either open a new terminal to force zsh to load the new plugin, or run `antigen bundle hadenlabs/zsh-plugin-template` in a running zsh session.
+1.  Add `antigen bundle hadenlabs/zsh-fnm` to your `.zshrc` where you're adding your other plugins.
+2.  Either open a new terminal to force zsh to load the new plugin, or run `antigen bundle hadenlabs/zsh-fnm` in a running zsh session.
 3.  Enjoy!
     <!-- Space: Projects -->
-    <!-- Parent: ZshPluginTemplate -->
-    <!-- Title: Installation Antibody ZshPluginTemplate -->
-    <!-- Label: ZshPluginTemplate -->
+    <!-- Parent: Fnm -->
+    <!-- Title: Installation Antibody Fnm -->
+    <!-- Label: Fnm -->
     <!-- Label: Project -->
     <!-- Label: Installation -->
     <!-- Include: docs/disclaimer.md -->
@@ -89,12 +89,12 @@ If you're using [Antibody](https://github.com/getantibody/antibody), install thi
 1. Add :
 
 ```{.sourceCode .bash}
-antibody bundle hadenlabs/zsh-plugin-template
+antibody bundle hadenlabs/zsh-fnm
 ```
 
 to your `.zshrc` where you're adding your other plugins.
 
-2.  Either open a new terminal to force zsh to load the new plugin, or run `antibody bundle hadenlabs/zsh-plugin-template` in a running zsh session.
+2.  Either open a new terminal to force zsh to load the new plugin, or run `antibody bundle hadenlabs/zsh-fnm` in a running zsh session.
 3.  Enjoy!
 
 ## Usage
@@ -108,8 +108,8 @@ task setup
 ## Examples
 
 <!-- Space: Projects -->
-<!-- Parent: ZshPluginTemplate -->
-<!-- Title: Examples ZshPluginTemplate -->
+<!-- Parent: Fnm -->
+<!-- Title: Examples Fnm -->
 <!-- Label: Examples -->
 <!-- Include: ./../disclaimer.md -->
 <!-- Include: ac:toc -->
@@ -117,8 +117,8 @@ task setup
 ### Common
 
  <!-- Space: Projects -->
-<!-- Parent: ZshPluginTemplate -->
-<!-- Title: Functions ZshPluginTemplate -->
+<!-- Parent: Fnm -->
+<!-- Title: Functions Fnm -->
 <!-- Label: Functions -->
 <!-- Include: docs/disclaimer.md -->
 <!-- Include: ac:toc -->
@@ -129,7 +129,7 @@ task setup
 
 **Got a question?**
 
-File a GitHub [issue](https://github.com/hadenlabs/zsh-plugin-template/issues).
+File a GitHub [issue](https://github.com/hadenlabs/zsh-fnm/issues).
 
 ## Contributing
 
@@ -162,6 +162,6 @@ All other trademarks referenced herein are the property of their respective owne
 
 The code and styles are licensed under the LGPL-3.0 license [See project license.](LICENSE).
 
-## Don't forget to 🌟 Star 🌟 the repo if you like zsh-plugin-template
+## Don't forget to 🌟 Star 🌟 the repo if you like zsh-fnm
 
-[Your feedback is appreciated](https://github.com/hadenlabs/zsh-plugin-template/issues)
+[Your feedback is appreciated](https://github.com/hadenlabs/zsh-fnm/issues)

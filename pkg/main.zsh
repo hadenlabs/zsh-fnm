@@ -1,24 +1,24 @@
 #!/usr/bin/env ksh
 # -*- coding: utf-8 -*-
 
-function plugin-template::pkg::main::factory {
+function fnm::pkg::main::factory {
     # shellcheck source=/dev/null
-    source "${ZSH_PLUGIN_TEMPLATE_PATH}"/pkg/base.zsh
+    source "${ZSH_FNM_PATH}"/pkg/base.zsh
     case "${OSTYPE}" in
     darwin*)
         # shellcheck source=/dev/null
-        source "${ZSH_PLUGIN_TEMPLATE_PATH}"/pkg/osx.zsh
+        source "${ZSH_FNM_PATH}"/pkg/osx.zsh
         ;;
     linux*)
         # shellcheck source=/dev/null
-        source "${ZSH_PLUGIN_TEMPLATE_PATH}"/pkg/linux.zsh
+        source "${ZSH_FNM_PATH}"/pkg/linux.zsh
       ;;
     esac
     # shellcheck source=/dev/null
-    source "${ZSH_PLUGIN_TEMPLATE_PATH}"/pkg/helper.zsh
+    source "${ZSH_FNM_PATH}"/pkg/helper.zsh
 
     # shellcheck source=/dev/null
-    source "${ZSH_PLUGIN_TEMPLATE_PATH}"/pkg/alias.zsh
+    source "${ZSH_FNM_PATH}"/pkg/alias.zsh
 }
 
-plugin-template::pkg::main::factory
+fnm::pkg::main::factory

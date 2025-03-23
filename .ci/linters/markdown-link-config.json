@@ -1,8 +1,11 @@
 {
-  "baseUrl": "https://github.com/hadenlabs/zsh-plugin-template",
+  "baseUrl": "https://github.com/hadenlabs/zsh-fnm",
   "ignorePatterns": [
     {
       "pattern": "^https://hadenlabs.com"
+    },
+    {
+      "pattern": "^mailto:.*@hadenlabs\\.com"
     }
   ],
   "replacementPatterns": [
