@@ -19,3 +19,8 @@ function fnm::internal::main::factory {
 }
 
 fnm::internal::main::factory
+fnm::internal::fnm::load
+
+if ! core::exists curl; then core::install curl; fi
+if ! core::exists unzip; then core::install unzip; fi
+if ! core::exists fnm; then fnm::internal::fnm::install; fi
