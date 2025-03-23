@@ -22,7 +22,7 @@ zsh-fnm for project
 
 This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
 
-- [zsh-plugin-name](https://github.com/hadenlabs/zsh-fnm)
+- [zsh-fnm](https://github.com/hadenlabs/zsh-fnm)
 - [gomplate](https://github.com/hairyhenderson/gomplate)
 - [python](https://www.python.org)
 - [taskfile](https://github.com/go-task/task)

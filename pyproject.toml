@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "zsh-plugin-name"
+name = "zsh-fnm"
 version = "0.0.0"
 description = "zsh fnm"
 authors = ["Luis Mayta <luis@hadenlabs.com>"]

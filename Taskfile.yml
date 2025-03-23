@@ -16,6 +16,8 @@ includes:
     taskfile: "https://raw.githubusercontent.com/hadenlabs/tasks/main/confluence/Taskfile.yml"
   python:
     taskfile: "https://raw.githubusercontent.com/hadenlabs/tasks/main/python/Taskfile.yml"
+  node:
+    taskfile: "https://raw.githubusercontent.com/hadenlabs/tasks/main/node/Taskfile.yml"
   git:
     taskfile: "https://raw.githubusercontent.com/hadenlabs/tasks/main/git/Taskfile.yml"
   # docs:
@@ -68,7 +70,7 @@ dotenv:
   - .env
 
 vars:
-  PROJECT_NAME: zsh-plugin-name
+  PROJECT_NAME: zsh-fnm
   ORGANIZATION: hadenlabs
   DOCKER_PLATFORM: linux/amd64
   REVIEWERS: luismayta

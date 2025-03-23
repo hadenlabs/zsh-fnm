@@ -7,12 +7,12 @@ export YARN_PATH="${HOME}"/.yarn
 export FNM_PATH="${HOME}/.local/share/fnm"
 export FNM_MESSAGE_CORE="Please install core or use antidote bundle hadenlabs/zsh-core"
 export FNM_VERSIONS=(
-  20.18.1
+  20.18.3
   18.20.4
   18.18.2
 )
 export FNM_VERSION=0.39.5
-export FNM_VERSION_GLOBAL=18.20.4
+export FNM_VERSION_GLOBAL=20.18.3
 export FNM_PACKAGES=(
     npm
     pnpm
@@ -28,7 +28,6 @@ export FNM_PACKAGES=(
     js-to-ts-converter
     @compare/github
     codesandbox
-    lerna
     commitizen
     @compare/github
     get-graphql-schema
