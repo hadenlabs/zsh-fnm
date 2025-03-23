@@ -12,7 +12,7 @@ Contributions to zsh-fnm are welcome.
 
 Feel free to use all of the contribution options:
 
-- Contribute to zsh-fnm repositories on [GitHub](https://github.com/hadenlabs/zsh-fnm). See [Git flow](./contribute/github-flow.md).
+- Contribute to zsh-fnm repositories on [GitHub](https://github.com/hadenlabs/zsh-fnm). See [GitHub flow](./contribute/github-flow.md).
 
 ## Getting Started
 

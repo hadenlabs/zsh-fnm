@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "zsh-plugin-name"
 version = "0.0.0"
-description = "zsh plugin name"
+description = "zsh fnm"
 authors = ["Luis Mayta <luis@hadenlabs.com>"]
 license = "LGPL-3.0"
 readme = "README.md"
